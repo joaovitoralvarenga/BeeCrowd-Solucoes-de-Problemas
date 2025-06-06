@@ -20,7 +20,7 @@ class Solution {
                    (c == '}' && top != '{') ||                     //--> Seria melhor declararar um map para cada carectere a fim de evitar chegagem de condições grandes.
                    (c == ']' && top != '[')) {
                     valida = false;
-                   }
+                   }                                             //Essa abordagem garante uma complexidade O(n);   
             }
         }
 
